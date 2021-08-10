@@ -1,0 +1,31 @@
+.navbar{
+    position: absolute;
+    top: 0;
+    z-index: 100;
+    width: 100%;
+    display: flex;
+}
+.navbar__right{
+    width: 35vh;
+    height: 5vh;
+    margin-right: 20px;
+    
+}
+.navbar>img{
+    margin-left: 20px;
+}
+.form-control{
+    background-color: transparent;
+    border: 0;
+    outline: 0;
+    border-bottom: 1px solid black;
+    margin-right: 10px;
+}
+
+.btn{
+    background-color: rgba(255, 2, 2, 0.6);
+    border: none;
+}
+.btn:hover{
+    background-color: rgb(41,41,41,0.6);
+}
