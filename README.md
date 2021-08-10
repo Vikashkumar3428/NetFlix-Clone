@@ -1,4 +1,4 @@
-Creating Netflix Clone
+Building Netflix Clone
 
 #Front-End 
 
