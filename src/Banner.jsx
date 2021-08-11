@@ -31,7 +31,9 @@ function Banner(props) {
                     <button className="banner__button"><img alt="photo" src="https://img.icons8.com/material-outlined/30/000000/checked--v3.png" style={{width:"20px",marginRight:"3px"}}/>My List  </button>
                 </div>
                 <h6 className="banner__description">{movie?.overview}</h6>
+                
             </div>
+            <div className="banner__fade" />
         </header>
     )
 }

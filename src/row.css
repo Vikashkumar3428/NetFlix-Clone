@@ -24,3 +24,6 @@
 .row__poster__Large:hover{
     transform: scale(1.09);
 } 
+.row{
+    width: 100%;
+}
