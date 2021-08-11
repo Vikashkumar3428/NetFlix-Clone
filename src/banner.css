@@ -1,7 +1,8 @@
 .banner{
     object-fit: contain;
-    height: 50vh;
+    height: 60vh;
     color: rgb(255, 255, 255);
+    padding-top: 10vh;
 }
 .banner__contents{
     margin-left:20px;
@@ -23,8 +24,15 @@
     background-color: rgba(19, 18, 18, 0.9);
 }
 .banner__description{
-    height: 20vh;    overflow: auto;
+    height: 20vh;    
+    overflow: auto;
 }
 .banner__description::-webkit-scrollbar{
     display: none;
 }
+
+@media (max-width: 767px) {                  
+    .banner__description {
+       display: none;
+    }
+ }

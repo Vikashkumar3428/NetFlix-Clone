@@ -27,10 +27,10 @@ function Banner(props) {
             <div className="banner__contents">
                 <h1>{movie?.name || movie?.title || movie?.original_name}</h1>
                 <div className="banner__buttons">
-                    <button className="banner__button">Play</button>
-                    <button className="banner__button">My List  </button>
+                    <button className="banner__button"><img alt="image" src="https://img.icons8.com/ios-glyphs/30/000000/play--v2.png" style={{width:"20px",marginRight:"3px"}}/>Play</button>
+                    <button className="banner__button"><img alt="photo" src="https://img.icons8.com/material-outlined/30/000000/checked--v3.png" style={{width:"20px",marginRight:"3px"}}/>My List  </button>
                 </div>
-                <h4 className="banner__description">{movie?.overview}</h4>
+                <h6 className="banner__description">{movie?.overview}</h6>
             </div>
         </header>
     )

@@ -6,13 +6,11 @@ const base_url = "https://image.tmdb.org/t/p/original/";
 function Row(props) {
 
     const [movies,setMovies] = useState([]);
-    console.log(props.fetchURL);
     useEffect(() => {
         async function fetchData()
         {
             const request = await axios.get(props.fetchURL);
             setMovies(request.data.results);
-            console.table(request.data.results);
             return request;
         }
         fetchData();
